@@ -1,0 +1,51 @@
+*{
+    margin:none;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:url("./ground.jpeg");
+    background-repeat: no-repeat;
+     background-size: cover;
+     height:100vh;
+}
+#ball{
+    height:80px;
+    width: 80px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+
+}
+.goal{
+    position: absolute;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    left:200px;
+    top:400px;
+background-color: black;
+transform: rotatex(40deg);
+}
+
+.goal img{
+    height:250px;
+    width: auto;
+    position: absolute;
+    right:-160px;
+    bottom: 25px;
+}
+
+#msg{
+    display: none;
+    color:rgb(6, 8, 52);
+    position: absolute;
+    top:350px;
+    left:450px;
+     padding:20px;
+     border:10px solid rgb(247, 244, 244);
+     font-weight: 900;
+     font-family: sans-serif;
+     background-color: rgba(254, 254,254, .4);
+}
