@@ -24,7 +24,7 @@ body{
     width: 150px;
     border-radius: 50%;
     left:200px;
-    top:400px;
+    top:200px;
 background-color: black;
 transform: rotatex(40deg);
 }
@@ -33,16 +33,16 @@ transform: rotatex(40deg);
     height:250px;
     width: auto;
     position: absolute;
-    right:-160px;
-    bottom: 25px;
+    right:-5px;
+    bottom: 45px;
 }
 
 #msg{
     display: none;
     color:rgb(6, 8, 52);
     position: absolute;
-    top:350px;
-    left:450px;
+    top:200px;
+    left:150px;
      padding:20px;
      border:10px solid rgb(247, 244, 244);
      font-weight: 900;
